@@ -1,6 +1,6 @@
 package com.example.aimind.Controller;
-import com.example.aimind.DTO.ChatRequest;
-import com.example.aimind.DTO.ChatResponse;
+import com.example.aimind.Model.ChatRequest;
+import com.example.aimind.Model.ChatResponse;
 import com.example.aimind.Services.AiMindPrompt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

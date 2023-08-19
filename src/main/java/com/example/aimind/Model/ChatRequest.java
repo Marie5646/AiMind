@@ -1,4 +1,4 @@
-package com.example.aimind.DTO;
+package com.example.aimind.Model;
 import lombok.Data;
 import java.util.ArrayList;
 import java.util.List;

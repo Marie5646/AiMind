@@ -1,4 +1,4 @@
-package com.example.aimind.DTO;
+package com.example.aimind.Model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
