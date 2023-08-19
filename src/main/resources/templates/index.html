@@ -19,14 +19,14 @@
    function response() {
        let btn = document.getElementById("submit-button")
        btn.addEventListener("click", function (event) {
-           let userInput = document.getElementById("prompt").value
+           var userInput = document.getElementById("prompt").value
            event.preventDefault();
            fetch(`http://localhost:8080/bot/ai-mind?prompt=${userInput}`)
                .then(response => {
                    response.text()
                        .then(data => {
                            console.log(data)
-                           let promptTextarea = document.getElementById("prompt");
+                           var promptTextarea = document.getElementById("prompt");
                            promptTextarea.value = data;
                        })
                })
